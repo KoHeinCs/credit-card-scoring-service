@@ -1,0 +1,19 @@
+server:
+  port: 8099
+
+grpc:
+  enabled: true
+  port: 6791
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/creditengine
+    username: root
+    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+
+
